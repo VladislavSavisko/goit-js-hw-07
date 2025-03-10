@@ -1,0 +1,145 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .gallery li {
+    flex: 1 1 calc(33.333% - 16px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Стили для списка категорий */
+  #categories {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+  }
+  
+  .item ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  /* Галерея изображений */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Поле ввода имени */
+  #name-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  #name-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  /* Форма входа */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .login-form button {
+    background-color: #4c82f7;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #3466d6;
+  }
+  
+  /* Виджет смены цвета */
+  .widget {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .widget .change-color {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .widget .change-color:hover {
+    background-color: #e04e4e;
+  }
+  
